@@ -1,9 +1,9 @@
 import { merge } from "./merge";
 
 // // merge two sorted collection with the first collection value are less than the second
-// test('merge two sorted collections', () => {
-//     expect(merge([1,3,5],[6,7,10])).toEqual([1, 3, 5, 6, 7, 10]);
-// });
+test('merge two sorted collections', () => {
+    expect(merge([1,3,5],[6,7,10])).toEqual([1, 3, 5, 6, 7, 10]);
+});
 
 // // merge two sorted collection with the first collection value are more than the second
 // test('merge two sorted collections', () => {

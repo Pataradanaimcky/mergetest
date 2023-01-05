@@ -7,6 +7,7 @@
 
 ```bash
 npm install
+npm install @babel/preset-env
 ```
 
 ## Test
